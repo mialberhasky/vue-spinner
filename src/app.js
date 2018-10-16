@@ -38,7 +38,7 @@ new Vue({
     BounceLoader,
     DotLoader
   },
-  data () {
+  data: function() {
     return {
    		color: '#5dc596',
       size: '15px',

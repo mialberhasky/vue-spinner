@@ -44,7 +44,7 @@ export default {
       default: '20px'
     }
   },
-  data () {
+  data: function() {
     return {
       spinnerStyle: {
       	backgroundColor: this.color,

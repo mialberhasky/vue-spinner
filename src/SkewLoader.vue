@@ -24,7 +24,7 @@ export default {
       default: '20px'
     }
   },
-  data () {
+  data: function() {
     return {
       spinnerStyle: {
       	height: 0,

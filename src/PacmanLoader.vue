@@ -36,7 +36,7 @@ export default {
       default: '100%'
     }
   },
-  data () {
+  data: function() {
     return {
       spinnerDelay2: {
         animationDelay: '0.25s'
